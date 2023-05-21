@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Travelling</title>
+  </head>
+  <body>
+    <style>
+      h1 {
+        width: 600px; /* Размеры */
+        background: #fc0; /* Цвет фона */
+        display: block; /* по центру*/
+        margin: auto; /* по центру*/
+        text-align: center;
+        border: 1px solid rgb(54, 17, 216);
+        padding: 10px;
+        font-size: 46px;
+        border-radius: 6px;
+      }
+
+      h3 {
+        text-align: center;
+        font-size: 24px;
+      }
+
+      .displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 500px;
+        height: min-content;
+      }
+
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 2px;
+        line-height: 32px;
+      }
+
+      h4 {
+        font-size: 20px;
+      }
+
+      button {
+        display: block;
+        margin: auto;
+        cursor: pointer;
+        text-align: center;
+        color: black;
+        background-color: #fc0; /* Цвет фона */
+        padding: 20px 15px 20px 15px;
+        border: 1px solid rgb(54, 17, 216);
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 6px;
+      }
+
+      button:hover {
+        background-color: green;
+        color: white;
+      }
+
+      /*.imleft {
+        float: left;  Выравнивание по левому краю
+        margin: 7px 7px 7px 0; /*Отступы вокруг картинки
+      }
+
+      .imright {
+        float: right; /* Выравнивание по правому краю
+        margin: 7px 0 7px 7px; /*Отступы вокруг картинки
+      }*/
+    </style>
+
+    <h1>Outdoor Adventure ✈️</h1>
+    <h3><em>I like travelling</em></h3>
+    <hr />
+    <div class="displayed">
+      <img
+        class="displayed"
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/082/319/original/ILikeTravelling.jpg?1684309427"
+        alt="IE"
+      />
+    </div>
+
+    <hr />
+    <p>
+      Welcome to Outdoor Adventure! Are you ready to escape the confines of
+      everyday life and immerse yourself in the beauty of nature? Look no
+      further! Outdoor Adventure is your gateway to thrilling and unforgettable
+      experiences in the great outdoors. Whether you're seeking
+      adrenaline-pumping activities or serene moments of tranquility, we have
+      something for everyone.
+    </p>
+
+    <h4><strong>Discover the Wonders of Nature:</strong></h4>
+
+    <p>
+      At Outdoor Adventure, we believe that nature holds endless wonders waiting
+      to be explored. Get ready to hike through lush forests, traverse majestic
+      mountains, and kayak along pristine rivers. Our experienced guides will
+      lead you on remarkable journeys, unveiling hidden ems and sharing their
+      knowledge of the natural world.
+    </p>
+
+    <h4><strong>Camping and Wilderness Retreats:</strong></h4>
+
+    <p>
+      Imagine falling asleep under a blanket of stars, surrounded by the sounds
+      of nature. Our camping and wilderness retreats offer you the chance to
+      disconnect from the noise of modern life and reconnect with the serene
+      beauty of the outdoors. Unwind by a crackling campfire, share stories with
+      fellow adventurers, and wake up to breathtaking sunrises that paint the
+      sky with vibrant colors.
+    </p>
+
+    <a
+      href="https://ru.wikipedia.org/wiki/Travelling"
+      target="_blank"
+      class="learn-more"
+    >
+      Read more on Wikipedia
+    </a>
+    <p>
+      <button>🙋Reserve my journey</button>
+      <script>
+        function check() {
+          let name = prompt("What is your name?");
+          alert(
+            "Thanks, " +
+              name +
+              ", we will be in touch. Meanwhile, have a good trip!"
+          );
+        }
+
+        let contactButton = document.querySelector("button");
+        contactButton.addEventListener("click", check);
+      </script>
+    </p>
+  </body>
+</html>
