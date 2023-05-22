@@ -1,0 +1,28 @@
+Gradient
+
+
+.footer {
+  background: linear-gradient(#e66465, #9198e5);
+}
+Multi-position color stop: A gradient tilted 45 degrees, with a red bottom-left half and a blue top-right half, with a hard line where the gradient changes from red to blue linear-gradient(45deg, red 0 50%, blue 50% 100%);
+
+More info
+
+
+CSS
+📚 Related links
+Image uploader
+https://www.shecodes.io/uploads
+CSS Color Palettes
+https://palettes.shecodes.io/
+CSS Gradients
+https://gradients.shecodes.io/
+
+•	Dracula Official
+https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula
+•	Source Code Pro
+https://fonts.google.com/specimen/Source+Code+Pro
+•	VS Code Themes
+https://vscodethemes.com/
+•	VS Code Cheatsheet
+https://cheatsheets.shecodes.io/vs-code
